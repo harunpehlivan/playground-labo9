@@ -4,7 +4,7 @@
 
 int _is_prime(int nbr)
 {
-	int i, premier=1;
+	int i, sqrt_nbr, premier=1;
 
 	if (nbr%2==0 && nbr!=2) {
 		premier=0;
