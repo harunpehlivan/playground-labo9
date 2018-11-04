@@ -18,7 +18,7 @@ int main(void) {
     int ok=1;
 	
     for (i=0;i<20;i++) {		
-		if (_is_prime(prime_test[i]) != is_prime(prime_test[i])) {
+		if (_is_prime(prime_test[i]) == is_prime(prime_test[i])) {
             ok = ok && 1;
         }
         else {
