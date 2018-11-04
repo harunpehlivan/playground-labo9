@@ -24,7 +24,7 @@ int _is_prime(int nb)
 
 int main(void) {
 	int i;
-	int prime_test[20]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
+	int prime_test[20]={1,2,3,4,5,6,7,8,9,10,11,12,71,100,121,1013,5041,6241,7919,69169};
     int ok=1;
 	
     for (i=0;i<20;i++) {		
@@ -33,7 +33,7 @@ int main(void) {
         }
         else {
             ok = ok && 0;
-            printf("TECHIO> message --channel \"TEST ERREUR\" 'Error function fail test (%d)'\n",i);
+            printf("TECHIO> message --channel \"TEST ERREUR\" 'Error function fail test (%d)'\n",prime_test[i]);
         }
     }
         
