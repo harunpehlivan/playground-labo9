@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "prime.h"
 
-int _is_prime(int nb)
+int _is_prime(int nbr)
 {
 	int i, premier=1;
 
