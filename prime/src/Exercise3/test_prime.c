@@ -4,12 +4,22 @@
 
 int _is_prime(int nb)
 {
-	int i, test;
-	test = 1;
+	int i, premier=1;
 
-	for (i = 2; i < nb; i++)
-		if (nb % i == 0) test = 0;
-	return test;
+	if (nbr%2==0 && nbr!=2) {
+		premier=0;
+	}
+	else {
+		sqrt_nbr = sqrt(nbr) + 1;
+		i=3;
+		while (i<sqrt_nbr && nbr%i!=0) i=i+2;
+
+		if (nbr%i==0)
+			premier=0;
+		else
+			premier=1;
+	}	
+	return premier;
 }
 
 int main(void) {
