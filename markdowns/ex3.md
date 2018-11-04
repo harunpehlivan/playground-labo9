@@ -3,15 +3,18 @@
 ## Les nombres aléatoires
 
 ```C runnable
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 int main() {
 	//Initialise la séquence de nombres pseudo-aléatoires
-	srand(time(NULL);
+	srand(time(NULL));
 
 	//rand() renvoi un nombre pseudo-aléatoire.
-	printf("Nombre aléatoire : %d", rand());
+	printf("Nombre aléatoire 1 : %d\n", rand());
+	printf("Nombre aléatoire 2 : %d\n", rand());
+	printf("Nombre aléatoire 3 : %d\n", rand());
 	
 	return 0;
 }
