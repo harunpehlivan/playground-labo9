@@ -16,7 +16,7 @@ int _is_prime(int nbr)
 		i=3;
 		while (i<=sqrt_nbr && nbr%i!=0) i=i+2;
 
-		if (nbr%i==0)
+		if (nbr%i==0 && nbr!=i)
 			premier=0;
 		else
 			premier=1;
