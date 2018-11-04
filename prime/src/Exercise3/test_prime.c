@@ -12,7 +12,7 @@ int _is_prime(int nbr)
 	}
 	else {
 		// sqrt_nbr = (int)sqrt(nbr) + 1;
-		sqrt_nbr = sqrt(nbr)/2;
+		sqrt_nbr = nbr/2;
 		i=3;
 		while (i<sqrt_nbr && nbr%i!=0) i=i+2;
 
