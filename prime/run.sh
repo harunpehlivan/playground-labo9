@@ -1,2 +1,3 @@
 #!/bin/sh
-make && ./prime
+make
+./prime
