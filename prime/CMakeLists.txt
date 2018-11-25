@@ -1,4 +1,4 @@
 cmake_minimum_required (VERSION 2.6)
 project (prime)
-add_executable(prime prime.h test_prime.c)
+add_executable(prime test_prime.c prime.h)
 
