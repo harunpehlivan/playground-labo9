@@ -1,3 +1,3 @@
 #!/bin/sh
 make
-./prime
+./test_prime
